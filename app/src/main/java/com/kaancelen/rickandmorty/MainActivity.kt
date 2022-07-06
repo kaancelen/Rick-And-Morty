@@ -1,10 +1,11 @@
 package com.kaancelen.rickandmorty
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.kaancelen.rickandmorty.base.BaseActivity
 
-class MainActivity : AppCompatActivity() {
+class MainActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+        setTheme(R.style.AppTheme)
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
