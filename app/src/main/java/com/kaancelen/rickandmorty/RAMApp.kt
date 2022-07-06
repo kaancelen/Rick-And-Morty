@@ -1,6 +1,7 @@
 package com.kaancelen.rickandmorty
 
 import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
 
-class RAMApp : Application() {
-}
+@HiltAndroidApp
+class RAMApp : Application()

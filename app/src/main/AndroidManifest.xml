@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     package="com.kaancelen.rickandmorty">
 
     <application
@@ -12,7 +11,7 @@
         android:theme="@style/AppTheme"
         android:name="com.kaancelen.rickandmorty.RAMApp">
         <activity
-            android:name="com.kaancelen.rickandmorty.MainActivity"
+            android:name="com.kaancelen.rickandmorty.main.MainActivity"
             android:theme="@style/SplashScreen"
             android:exported="true">
             <intent-filter>

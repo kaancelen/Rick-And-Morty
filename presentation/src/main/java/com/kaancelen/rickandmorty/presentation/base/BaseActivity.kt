@@ -1,4 +1,4 @@
-package com.kaancelen.rickandmorty.base
+package com.kaancelen.rickandmorty.presentation.base
 
 import androidx.appcompat.app.AppCompatActivity
 
